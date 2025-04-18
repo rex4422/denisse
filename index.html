@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Te Quiero Mucho ❤️</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+      background-color: #f0f0f0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .pdf-viewer {
+      width: 90%;
+      height: 90vh;
+      margin-top: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+    .download-btn {
+      margin: 20px;
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #ff69b4;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .download-btn:hover {
+      background-color: #ff1493;
+    }
+  </style>
+</head>
+<body>
+  <embed class="pdf-viewer" src="Wenas.pdf" type="application/pdf">
+  <a href="Wenas.pdf" download class="download-btn">Descargar PDF 💖</a>
+</body>
+</html>
